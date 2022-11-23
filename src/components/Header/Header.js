@@ -6,6 +6,7 @@ import "./Header.css"
 export default function Header() {
 
   const navItems = ['Portfolio', 'Technologies', 'About'];
+  
 
   return (
     <Box sx={{ flexGrow: 1 }} >
