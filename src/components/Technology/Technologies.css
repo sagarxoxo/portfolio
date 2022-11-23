@@ -1,0 +1,25 @@
+.techSection h6{
+    margin-top: 30px !important;
+    font-size: 1.25rem;
+    color: #ffffff70 !important;
+    width: 60%;
+}
+
+
+.techSection h3{
+    font-size: 2rem;
+    font-weight: 500;
+    color: #fff;
+}
+
+.techSection  .techDat{
+margin-top: 30px;
+}
+
+.techSection .sub{
+    margin-top: 0px !important;
+}
+
+.techSection{
+    margin-top: 80px;
+}

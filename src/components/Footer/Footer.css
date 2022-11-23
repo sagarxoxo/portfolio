@@ -1,0 +1,38 @@
+.footer{
+    margin-top: 80px;
+    border-top: 1px solid rgba(255,255,255,0.1);
+    padding-top: 30px;
+}
+
+.footer span{
+    font-size: 1.05rem;
+}
+
+.footer h6{
+    font-size: 1.125rem;
+    margin-top: 15px;
+    font-weight: 400;
+   color: #ffffff75 !important;
+   margin-bottom: 30px;
+}
+
+.footer h6:hover{
+    cursor: pointer;
+    margin-left: 5px;
+    -webkit-transition: .3s ease;
+    transition: .3s ease;
+   color: #ffffff !important;
+}
+
+.footer .socialSec a:hover{
+    background-color: #212d45;
+    border-radius: 60px;
+    height: 50px;
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.footer .socialSec a{
+    height: 50px;
+}

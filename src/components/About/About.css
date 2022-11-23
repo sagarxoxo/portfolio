@@ -1,0 +1,16 @@
+.aboutSection{
+    margin-top: 80px;
+}
+
+.aboutSection h6{
+    margin-top: 30px !important;
+    font-size: 1.25rem;
+    color: #ffffff70 !important;
+    width: 70%;
+}
+
+.timelineTitle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

@@ -1,38 +1,239 @@
-.App {
-  text-align: center;
+.app{
+  max-width: 1280px;
+  width: 100%;
+  margin: auto;
+  font-family: 'Space Grotesk', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.divider{
+  border-radius: 5px;
+  padding: 5px;
+  width: 100px;
+  background: #075FE4;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #52869f, #075FE4);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #52869f, #075FE4);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.portfolioSec{
+  margin-top: 80px;
+}
+@media only screen and (max-width: 1920px) {
+.cardPortfolio .hhe{
+  height: 46px !important;
+}
+}
+@media only screen and (max-width: 1350px) {
+
+  h1{
+    font-size: 5rem !important;
+  }
+
+  h2{
+    font-size: 2.5rem !important;
+  }
+
+  h3{
+    font-size: 2.75rem !important;
+  }
+
+  h4{
+    font-size: 2rem !important;
+  }
+
+  /* h5{
+    font-size: 2rem !important;
+  } */
+
+  h6{
+    font-size: 1.05rem !important;
+  }
+
+  .topSection a{
+    font-size: 1.05rem !important;
+  }
+
+  .cardPortfolio h3 {
+      font-size: 2rem !important;
+  }
+
+  .app{
+    padding: 0px 120px;
+  }
+
+
+  .cardPortfolio .techBtn, .cardPortfolio .viewBtn{
+    font-size: 0.9rem !important;
+  }
+
+  .techSection h3{
+    font-size: 2rem !important;
+  }
+
+  .portfolioSec .portfolioImge{
+    height: 240px;
+}
+
+  .topSection .animation{
+    margin: -60px 0px 0px 20px;
+  }
+
+  .cardPortfolio .hhe{
+    height: 46px !important;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@media only screen and (max-width: 1010px) {
+  h1{
+    font-size: 4.85rem !important;
+  }
+
+  h2{
+    font-size: 2.25rem !important;
+  }
+
+  h3{
+    font-size: 2.5rem !important;
+  }
+
+  h4{
+    font-size: 1.75rem !important;
+  }
+
+  /* h5{
+    font-size: 2rem !important;
+  } */
+
+  h6{
+    font-size: 0.90rem !important;
+  }
+
+  .topSection a{
+    font-size: 0.90rem !important;
+  }
+
+  .cardPortfolio h3 {
+      font-size: 1.75rem !important;
+  }
+
+  .cardPortfolio .techBtn, .cardPortfolio .viewBtn{
+    font-size: 0.8rem !important;
+  }
+
+  .cardPortfolio .techBtn{
+    padding: 8px 14px !important;
+    border-radius: 10px !important;
+  }
+
+  .app{
+    padding: 0px 90px;
+  }
+
+  .topSection .animation{
+    width: 80%;
+    height: 260px;
+    margin: -60px 0px 0px 40px;
+  }
+
+  .portfolioSec .portfolioImge{
+    height: 180px;
+}
 }
 
-.App-link {
-  color: #61dafb;
+@media only screen and (max-width: 900px) {
+  h1{
+    font-size: 4.25rem !important;
+  }
+
+  .cardPortfolio .titleConatiner{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .titleConatiner h3{
+    font-size: 1.75rem !important;
+  }
+
+  .techSection h6, .aboutSection h6{
+    width: 80% !important;
+  }
+
+  .cardPortfolio .techBtn{
+    padding: 6px 12px !important;
+    font-size: 0.75rem !important;
+  }
+  .portfolioSec .portfolioImge{
+    height: 150px;
+  }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media only screen and (max-width: 600px) {
+  h1{
+    font-size: 3.90rem !important;
   }
-  to {
-    transform: rotate(360deg);
+
+  h6{
+    font-size: 1.125rem !important;
   }
+  .cardPortfolio .titleConatiner{
+    flex-direction: column;
+  }
+
+  .cardPortfolio h3 {
+    font-size: 1.5rem !important;
+  }
+
+  .app {
+    padding: 0px 20px;
+  }
+
+  .techSection h6 {
+    width: 100% !important;
+  }
+
+  .techSection h3{
+    font-size: 1.75rem !important;
+  }
+
+  .topSection{
+    margin-top: 60px !important;
+  }
+
+
+  .techSection .techSt{
+    margin-bottom: 20px;
+  }
+  .aboutSection h6{
+    width: 100% !important;
+  }
+
+  .aboutSection .timelineSt{
+    margin-top: 20px !important;
+  }
+
+  .tollBar{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start !important;
+  }
+
+  .appNavbar{
+    border-bottom: 1px solid #ffffff70;
+  }
+
+  .appNavbar .menu{
+    margin-left: 0px !important;
+    font-size: 1rem !important;
+  }
+
+  .cardPortfolio .btnContainer{
+    justify-content: flex-start;
+  }
+
+  .portfolioSec, .techSection, .aboutSection {
+    margin-top: 60px !important;
+  }
+
+  .cardPortfolio .hhe{
+    height: 80px !important;
+}
 }

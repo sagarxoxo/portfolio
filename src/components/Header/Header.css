@@ -1,0 +1,27 @@
+.logo{
+    width: 40px;
+    margin-right: 10px;
+}
+
+.appNavbar{
+    padding: 10px 0px;
+    background-color: #0F1624 !important;
+    box-shadow: none !important;
+}
+
+.tollBar{
+    padding: 0px !important;
+}
+
+.menu{
+    font-weight: 400 !important;
+    letter-spacing: 1px !important;
+    color: #ffffff70 !important;
+    margin-left: 20px !important;
+    text-transform: capitalize !important;
+    font-size: 1.15rem !important;
+}
+
+.menu:hover{
+    color: #ffffff !important;
+}
