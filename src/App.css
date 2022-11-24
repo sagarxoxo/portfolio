@@ -3,7 +3,7 @@
   width: 100%;
   margin: auto;
   font-family: 'Space Grotesk', sans-serif;
-  scroll-behavior: smooth;
+  
 }
 
 .divider{
@@ -18,11 +18,13 @@
 .portfolioSec{
   margin-top: 80px;
 }
+
 @media only screen and (max-width: 1920px) {
 .cardPortfolio .hhe{
   height: 46px !important;
 }
 }
+
 @media only screen and (max-width: 1350px) {
 
   h1{
