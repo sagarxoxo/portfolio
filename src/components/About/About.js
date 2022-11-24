@@ -6,7 +6,7 @@ import {timelineData} from "../../data/timeLineData"
 
 export default function About() {
   return (
-    <div className='aboutSection'>
+    <div className='aboutSection' id="About">
         <HeadingHero title={"About Me"}/>
         <Typography variant='subtitle1' sx={{color: "#ffffff70", marginTop: "10px"}}>
         I'm a front-end web developer with a background in computer science. 

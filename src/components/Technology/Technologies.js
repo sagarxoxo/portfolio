@@ -6,7 +6,7 @@ import {techData} from "../../data/techData"
 
 export default function Technologies() {
   return (
-    <div className='techSection'>
+    <div className='techSection' id="Technologies">
         <HeadingHero title={"Technologies"} />
         <Typography variant='subtitle1'>
             I've worked with a range a technologies in the web development world. From Back-end To Design

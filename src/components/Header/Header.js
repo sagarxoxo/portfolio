@@ -18,7 +18,7 @@ export default function Header() {
           </Typography>
           <Box className=''>
             {navItems.map((item) => (
-              <Button key={item} className="menu">
+              <Button key={item} className="menu" href={`#${item}`}>
                 {item}
               </Button>
             ))}

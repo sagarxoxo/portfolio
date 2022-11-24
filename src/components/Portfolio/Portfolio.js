@@ -9,7 +9,7 @@ export default function Portfolio() {
     const [n, setN] = useState(4);
 
   return (
-    <div className='portfolioSec'>
+    <div className='portfolioSec' id="Portfolio">
         <HeadingHero title="My Portfolio"/>
         <Grid container spacing={6} sx={{marginTop: "10px",}}>
         {(portfolioData).slice(0,n).map((data, index) => {

@@ -3,6 +3,7 @@
   width: 100%;
   margin: auto;
   font-family: 'Space Grotesk', sans-serif;
+  scroll-behavior: smooth;
 }
 
 .divider{
