@@ -13,6 +13,7 @@ import React from "react";
 import { MaterialUISwitch } from "../../GlobalstylesComponents/Switch";
 import logo from "../../images/code.png";
 import "./Header.css";
+
 export default function Header() {
   const navItems = ["Portfolio", "Technologies", "About"];
 
