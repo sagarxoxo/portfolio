@@ -4,7 +4,7 @@ export const portfolioData = [
         desc: "A platform where a big pharma company pays an influencer to post on social media.",
         portImg: "/images/patient influence.jpg",
         techUse: ["Next Js","Bootstrap"],
-        live: "https://adminpanel-sagarxoxo.vercel.app/discoverinfluencers",
+        live: "https://adminpanel-sagarxoxo.vercel.app",
         repo: "",
     },
     {
